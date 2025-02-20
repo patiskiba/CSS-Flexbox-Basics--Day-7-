@@ -1,0 +1,37 @@
+.flexContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 1rem;
+    background-color: rgb(4, 61, 58);
+    height: 500px;
+    max-width: 700px;
+}
+
+.flexItem {
+    /* max-width: 200px; */
+    min-width: 90px;
+    background-color:lightseagreen;
+    height: 200px;
+    
+}
+
+.flexItem:nth-child(2) {
+    flex: 1;
+}
+
+.flexItem:nth-child(3) {
+    flex: 2;
+}
+
+.flexItem:nth-child(4) {
+    flex: 3;
+}
+
+.flexItem:nth-child(5) {
+    flex: 2;
+}
+
+.flexItem:nth-child(6) {
+    flex: 1;
+}
