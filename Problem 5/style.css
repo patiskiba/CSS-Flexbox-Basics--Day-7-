@@ -1,0 +1,16 @@
+.cardGrid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    background-color: rgb(236, 236, 236);
+}
+
+.card {
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 10px 10px 5px lightblue;
+}
